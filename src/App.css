@@ -127,6 +127,7 @@ input{
   height: 30px;
   background-color: rgb(224, 242, 248);
   transition:.3s ease;
+  margin-bottom: 21px;
 }
 
 #submit:hover{
