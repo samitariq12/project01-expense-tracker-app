@@ -137,3 +137,9 @@ input{
 .newtrx{
   margin-bottom: -4px;
 }
+
+form p{
+  font-size: small;
+  font-style: italic;
+  margin-top: -5px;
+}

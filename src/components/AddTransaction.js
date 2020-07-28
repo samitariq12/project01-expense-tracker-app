@@ -45,6 +45,7 @@ export const AddTransaction = () => {
                     <label htmlFor="trid" className="label">
                         Transaction Amount
                     </label>
+                    <p>positve value for income, negative for expense</p>
                     <input  type="number" 
                             id="trid"
                             value={transactionAmount}
