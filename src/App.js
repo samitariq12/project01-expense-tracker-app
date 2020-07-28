@@ -7,10 +7,10 @@ import { TransactionHistory } from './components/TransactionHistory';
 import {AddTransaction} from './components/AddTransaction';
 // Import Provider
 import { GlobalProvider } from './context/GlobalState';
-console.log(typeof(initialState));
+
 function App() {
   return (
-    <div>
+    <GlobalProvider>
       <Header />
       <div className="container">
         <Balance />
@@ -18,7 +18,7 @@ function App() {
         <TransactionHistory />
         <AddTransaction />
       </div>
-      </div>
+      </GlobalProvider>
 );
 }
 
